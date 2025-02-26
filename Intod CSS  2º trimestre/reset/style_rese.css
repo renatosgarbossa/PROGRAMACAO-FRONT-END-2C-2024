@@ -1,0 +1,25 @@
+/* styles.css */
+
+/* Reset CSS (opcional, mas recomendado) */
+/* Você pode usar um reset pronto ou criar o seu próprio */
+/* Aqui está um exemplo básico: */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Estilos personalizados */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}

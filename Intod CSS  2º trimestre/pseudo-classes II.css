@@ -1,0 +1,19 @@
+li:nth-child(2){
+    color: red;
+}
+
+.teste{
+    background-color: aquamarine;
+    width: 10%;
+    
+}
+
+#teste2{
+    background-color: rgb(132, 100, 162);
+    width: 35%;
+    color: blue;
+}
+
+.img{
+    width: 60%;
+}

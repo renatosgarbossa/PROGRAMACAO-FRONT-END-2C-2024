@@ -1,0 +1,133 @@
+ @import url(footer.css);
+ @import url(header.css);
+ 
+ 
+html, body { 
+    height: 100%;
+      }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+    flex: 1;
+}
+
+.secao1 {
+    background: #5b924a;
+    padding: 1rem;
+    text-align: center;
+}
+
+.secao2{
+    background-color: #5b924a;
+    align-tracks: center;
+    flex-direction: column;
+    display: inline-flexbox;
+    padding: 2rem;
+    height: fit-content;
+}
+
+.imagens{
+    height: 600px;
+    width: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 2rem;
+    }
+}
+
+    .content {
+        flex-direction: column;
+    }
+
+    article {
+        flex: 100%;
+    }
+
+
+img {
+    height: 300px;
+    width: 300px;
+    align-items: center;
+
+}
+
+main {
+   margin: 0px;
+   padding: 3px;
+   text-align: center;
+}
+
+h3 {
+   text-align: center;
+}
+
+.logo{
+    position: absolute;
+    left: 1rem;
+    transform: translateX(10px) translateY(10px);
+    max-width: 100px;
+    height: auto;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 1rem;
+}

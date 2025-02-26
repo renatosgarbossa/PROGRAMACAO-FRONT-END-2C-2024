@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.topo {
+    background-color: #cdcdcd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.menu {
+    background-color: gray;
+    width: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu a {
+    color: #000;
+    text-decoration: none;
+}
+
+.ladodireito {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    overflow-y: auto;
+}
+
+.ladodireito h2 {
+    text-align: center;
+}
+
+.ladodireito img {
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,5 @@
+body {font-family: Arial, sans-serif;}
+.header {text-align: center; padding: 10px;}
+.catalog {display: flex; justify-content: space-around; flex-wrap: wrap;}
+.item {margin: 10px;}
+.footer {text-align: center; padding: 20px;}
